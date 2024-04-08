@@ -1,0 +1,16 @@
+.meuHeader{
+    background-color: chocolate;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 9px 18px; 
+}
+

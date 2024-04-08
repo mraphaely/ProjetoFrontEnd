@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+}
+
+/* responsividade */
+
+@media (max-width: 600) {
+  .img-logo {
+    max-width: 60px;
+    max-height: 60px;
+  }
+  .minhasImg {
+    flex-direction: column; 
+    columns: 2;
+  }
+
+  div a {
+    padding: 0.2rem; 
+  }
+}
+
+@media (max-width: 480px) {
+  .meuHeader, .meuFooter, .minhasImg {
+    flex-direction: column; 
+  }
+
+  nav a {
+    margin: 0.2rem; 
+  }
+}
