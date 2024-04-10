@@ -1,0 +1,28 @@
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light-pink: hsl(275, 100%, 97%);
+    --Grayish-purple: hsl(292, 16%, 49%);
+    --Dark-purple: hsl(292, 42%, 14%);
+}
+
+.container_main{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ .container_card{
+     text-align: left;
+     max-width: 400px;
+     height: 300px;
+     background-color: var(--White);
+     margin: 0 auto;
+     border-radius: 15px;
+     padding: 50px;
+     display: flex;
+     flex-direction: column;
+     filter: drop-shadow(15px 15px 10px var(--Dark-purple));
+ }
+ 
