@@ -1,8 +1,8 @@
 import React from "react"
-import ButtonModal from "../ButtonModal/Button"
+import ButtonModal from "../ButtonModal/ButtonModal"
 import Modal from "../Modal/Modal"
-import image2 from '../'
-import image3 from '../'
+import image2 from '../images/icon-plus.svg'
+import image3 from '../images/icon-minus.svg'
 
 
 // eslint-disable-next-line react/prop-types
@@ -16,7 +16,8 @@ const [modal, setModal] = React.useState(false)
         <ButtonModal 
                  modal={modal} setModal={setModal} 
                  text={textButton}
-                 img={modal ? image2 : image3}/>
+                 img={modal ? image2 : image3}
+                />
         <Modal 
                  modal={modal} text={textModal}/>
     </>
