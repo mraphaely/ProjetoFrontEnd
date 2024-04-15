@@ -1,0 +1,24 @@
+:root{
+    /* Colors Primary*/
+    
+      --Bright-orange: hsl(31, 77%, 52%);
+      --Dark-cyan: hsl(184, 100%, 22%);
+      --Very-dark-cyan: hsl(179, 100%, 13%);
+    
+    /* Colors Neutral */
+    /* (paragraphs) */
+      --Transparent-white: hsla(0, 0%, 100%, 0.75);
+    /* (background, headings, buttons) */
+      --Very-light-gray: hsl(0, 0%, 95%);
+    }
+.btn{
+  border-radius: 25px;
+  background-color: white;
+  height: 50px;
+  width: 150px;
+  font-size: medium;
+  border:  white;
+  margin: 0 auto;
+  margin-top: 25px;
+  
+}

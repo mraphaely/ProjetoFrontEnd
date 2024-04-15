@@ -1,0 +1,30 @@
+:root{
+    /* Colors Primary*/
+    
+      --Bright-orange: hsl(31, 77%, 52%);
+      --Dark-cyan: hsl(184, 100%, 22%);
+      --Very-dark-cyan: hsl(179, 100%, 13%);
+    
+    /* Colors Neutral */
+    /* (paragraphs) */
+      --Transparent-white: hsla(0, 0%, 100%, 0.75);
+    /* (background, headings, buttons) */
+      --Very-light-gray: hsl(0, 0%, 95%);
+    }
+    
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+     }
+     
+     .container_card{
+         max-width: 300px;
+         height: 400px;
+         border-radius: 15px;
+         padding: 25px;
+         display: flex;
+         flex-direction: column;
+         /* filter: drop-shadow(15px 15px 10px black); */
+    }
