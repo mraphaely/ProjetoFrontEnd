@@ -1,0 +1,68 @@
+ :root{
+ --Red: hsl(0, 100%, 74%); 
+ --Green: hsl(154, 59%, 51%);
+
+ --Blue: hsl(248, 32%, 49%);
+
+ --Dark-Blue: hsl(249, 10%, 26%);
+ --Grayish-Blue: hsl(246, 25%, 77%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--Red);
+    background-image: url(../../../images/bg-intro-desktop.png);
+    color: #fff;
+    flex-direction: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.container_main{
+    justify-content: center;
+    display: flex;
+    
+}
+
+.container_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    max-width: 200px;
+    height: auto;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.section{
+    display: flex;
+    margin-top: 150px;
+}
+.palavritas{
+    color: #fff;
+}
+div{
+    padding: 25px;
+}
+
+  
+  @media (max-width: 480px) {
+      .section{
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          margin: 0 auto;
+          align-items: center; 
+      }
+      .container_card{
+        margin-top: 100px;
+      }
+      
+}
+
+

@@ -1,0 +1,22 @@
+button{
+    max-width: 300px;
+    height: auto;
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 10px;
+    color: #fff;
+    border: none;
+}
+#btnV{
+  margin: 5px;
+  margin-bottom: 5px;
+  padding: 10px 27px 10px 27px;
+  
+}
+#btnR{
+   width: 220px;
+   height: 35px;
+   font-size: 9px;
+   position: relative;
+   bottom: 70px;
+}
