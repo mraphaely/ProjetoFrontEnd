@@ -8,7 +8,7 @@ const App = () => {
   return(
     <button>{ativo ? 'Botão ativo' : 'Botão inativo'}</button>
     )
-  }
+}
   
   export default App;
   */
