@@ -12,9 +12,6 @@ function handleClick() {
     setContador(()=>{
       return contador + 1 
   })
-    setItem((item)=>{
-      return [...item, 'Item ' + contador]
-  })
 }     
 
   return(<>
@@ -22,14 +19,14 @@ function handleClick() {
         {ativo === true ? 'Ativo' : 'Inativo'}
     </button>
 
-    <button onClick={handleClick}> {contador} </button>
     {/* <button onClick={()=> setContador(contador + 1)}>
         {contador}
-    </button> */}
+      </button> */}
+   <button onClick={handleClick}>{contador}</button>
 
     {item.map((item)=>(
-        <li key={item}>{item}</li>
-    ))}
+      <li key={item}>{item}</li>
+      ))}
     </>)
 }
 
