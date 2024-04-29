@@ -1,0 +1,15 @@
+.Menos{
+   background-color: red;
+   color: ghostwhite;
+   border-radius: 50%;
+   border: ghostwhite;
+   margin-right: 5px;
+}
+.Mais{
+    background-color: green;
+    color: ghostwhite;
+    border-radius: 50%;
+    border: ghostwhite;
+    margin-left: 5px;
+    margin-right: 5px;
+}

@@ -1,0 +1,15 @@
+.btn-item{
+    background-color: green;
+    color: ghostwhite;
+    border-radius: 3px;
+    border: white;
+    padding: 3px;
+    margin-right: 5px;
+}
+.btn-itemLess{
+    background-color: red;
+    color: ghostwhite;
+    border-radius: 3px;
+    border: white;
+    padding: 3px;
+}

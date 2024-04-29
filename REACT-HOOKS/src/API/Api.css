@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+.container{
+    background-color: rgba(139, 0, 0, 0.367);
+    color:  white;
+    padding: 5px;
+    padding-bottom: 25px;
+    width: 400px;
+    min-height: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.image{
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+}
+h1{
+    font-size: 20px;
+    text-align: left;
+    padding-left: 50px;
+}
+p{
+    font-size: 15px;
+    text-align: right;
+    padding-right: 55px;
+}
+.Butao{
+    background-color: rgba(139, 0, 0, 0.367);
+    border-radius: 5px;
+    color: white;
+    margin: 5px;
+    width: 100px;
+    height: 28px;
+}
+.carregando{
+    color: white;
+    margin: 25px;
+    width: 100px;
+    height: 28px;
+}
