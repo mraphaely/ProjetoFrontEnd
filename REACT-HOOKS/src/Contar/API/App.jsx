@@ -5,12 +5,14 @@ import Produto from './Produto';
 const App = () => {
 
  const [data,setData] = React.useState(null)
+ const [carregando, setCarregando] = React.useState(null)
 
  async function getData(event) {
+  setCarregando(true)
   const response = await fetch(`https://ranekapi.origamid.dev/json/api/produto/${event.target.innerText}`);
   const json = await response.json();
   setData(json)
-
+  setCarregando(false)
 }
 
   return (
@@ -18,6 +20,7 @@ const App = () => {
     <button onClick={getData}>Tablet</button>
     <button onClick={getData}>Notebook</button>
     <button onClick={getData}>Smartphone</button>
+    {carregando && <p>Carregando...</p>}
     {data != null ? <Produto datas={data}/> : null }
    </>
   )
