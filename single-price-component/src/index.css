@@ -1,9 +1,19 @@
 body{
-    background-color:  hsl(204, 43%, 93%);
+    background-color:  hsla(203, 44%, 93%, 0.593);
     padding: 0;
     margin: 0;
 }
 .Container{
-    display: flex;
-    
+    display: inline-flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.valor{
+    display: inline-flex;
+}
+.ContainerPrincipal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

@@ -1,4 +1,4 @@
-import { CardBtn, Preco, Titulob, SubTitulob, Btn } from "../Styles/CardBtn";
+import { CardBtn, Preco, Titulob, SubTitulob, Btn, TittleRgb } from "../Styles/CardBtn";
 import { CardMaior, SubTitulo, Texto, Titulo } from "../Styles/CardMaior"
 import { CardMenor, Tituloc, SubTituloc} from "../Styles/CardMenor";
 
@@ -14,7 +14,10 @@ const App = () => {
         <div className="Container">
         <CardBtn>
          <Titulob>Monthly Subscription</Titulob>
+         <section className="valor">
          <Preco>$29</Preco>
+         <TittleRgb>por month</TittleRgb>
+         </section>
          <SubTitulob>Full acess for less than $1 a day</SubTitulob>
          <Btn>Sing Up</Btn>
         </CardBtn>

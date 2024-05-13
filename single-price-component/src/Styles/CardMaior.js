@@ -16,6 +16,7 @@ export const CardMaior = styled.div`
      height: 200px;
      border-radius: 10px 10px 0 0;
      margin:  0 auto;
+
 `
 export const Titulo = styled.h1`
      color: ${color.Cyan};
