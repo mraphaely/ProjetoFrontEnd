@@ -14,8 +14,8 @@ import '../style.css'
 const App = () => {
     return(
         <BrowserRouter>
-            <img src={image} className='judo'/>
             <Header/>
+            <img src={image} className='judo'/>
             <Routes>
                 <Route path="/" element={<Home/>}  className='links'/>
                 <Route path="/sobre" element={<Sobre/>}  className='links'/>

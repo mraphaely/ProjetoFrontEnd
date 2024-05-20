@@ -5,7 +5,7 @@ export const cor = {
     secondary: "gray",
     tertiary: "black",
     quaternary: "white",
-    quinary: "blue",
+    quinary: "rgba(0, 0, 255, 0.527)",
 }
 export const Cabecalho = styled.nav`
     background-color: ${cor.quinary};

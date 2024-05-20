@@ -6,9 +6,14 @@
     text-decoration: none;
     color: white;
     padding: 18px;
-    transition: all;
+    transition: 3s;
 }
 body{
     background-color: #000;
     color: white;
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: rgba(0, 0, 255, 0.967);
 }
